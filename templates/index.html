@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Rental Deal Analyzer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="hero">
+        <h1>AI Rental Deal Analyzer</h1>
+        <p>Paste a rental listing link and get a deal verdict instantly.</p>
+    </div>
+
+    <div class="card">
+        <label>Listing URL</label>
+        <div class="input-row">
+            <input id="urlInput" type="text" placeholder="https://example.com/listing">
+            <button onclick="analyzeDeal()">Analyze</button>
+        </div>
+        <p id="loading" class="loading hidden">Analyzing listing...</p>
+    </div>
+
+    <div id="resultCard" class="result-card hidden">
+        <div class="result-header">
+            <h2 id="prediction">GOOD DEAL</h2>
+            <span id="confidence">82%</span>
+        </div>
+
+        <div class="grid">
+            <div>
+                <p class="label">Price / sqm</p>
+                <p id="pricePerSqm" class="value">€0</p>
+            </div>
+            <div>
+                <p class="label">Value Score</p>
+                <p id="valueScore" class="value">0</p>
+            </div>
+            <div>
+                <p class="label">Best Deals Found</p>
+                <p id="bestDealsFound" class="value">0</p>
+            </div>
+            <div>
+                <p class="label">Best Avg / sqm</p>
+                <p id="bestAvg" class="value">N/A</p>
+            </div>
+        </div>
+
+        <div class="explanation">
+            <h3>Final Verdict</h3>
+            <p id="finalExplanation"></p>
+        </div>
+    </div>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
