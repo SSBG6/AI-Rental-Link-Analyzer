@@ -1,4 +1,4 @@
-## 🚀 AI Rental Link Analyzer
+##  AI Rental Link Analyzer
 
 - End-to-end rental deal analysis system from a single listing URL  
 - Scrapes real estate webpages and extracts raw listing data  
@@ -19,7 +19,7 @@
 
 ---
 
-### 🧠 Description
+##  Description
 
 AI-powered rental deal analyzer that scrapes listing URLs, extracts structured data using the Qwen3-VL LLM via LM Studio, and evaluates deal quality with a Random Forest model. Uses ChromaDB for market comparison and generates clear, human-readable verdicts for smarter rental decisions.
 
