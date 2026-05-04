@@ -12,7 +12,6 @@ Embeddings: ChromaDB Default Embedding Function
 Architecture: MVC (Controllers, Services, Models)
 API Server: Uvicorn
 Other Tools: JSON, REST APIs
----
 
 ##  Description
 
