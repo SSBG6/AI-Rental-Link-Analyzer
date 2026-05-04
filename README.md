@@ -1,4 +1,4 @@
-Stack:
+## Stack:
 
 Frontend: HTML, CSS, JavaScript (FastAPI Templates)
 Backend: FastAPI (Python)
